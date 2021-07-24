@@ -13,7 +13,6 @@ import SearchBar from 'react-native-search-bar';
 import {Cards} from '../../components/Cards'
 
 
-
 export default function Favoritos(){
 
     const navigation = useNavigation();

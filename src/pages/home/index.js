@@ -3,14 +3,13 @@ import { View, Text, Image, TouchableOpacity, ScrollView, FlatList } from 'react
 import styles from './style';
 import Icon from 'react-native-vector-icons/AntDesign';
 import {useNavigation} from '@react-navigation/native';
-import {Cards} from '../../components/Cards'
-import {atrativos} from '../../components/Objects/Atrativos'
-
+import {Cards} from '../../components/Cards';
+import {atrativos} from '../../components/Objects/Atrativos';
 
 
 export default function Home(){
 
-    const navigation = useNavigation();
+    const navigation = useNavigation(); 
 
     const [data, setData] = React.useState(atrativos);
     const [teste, setTeste] =React.useState(null);
@@ -122,13 +121,6 @@ export default function Home(){
 
 
 
-
-
-
-
-
-
-
                 <View style={styles.conteudoContainer}>
 
                     <Text style={styles.cabecalhoII}>
@@ -156,15 +148,7 @@ export default function Home(){
                     />
 
 
-                
-                    
-
                 </View>
-
-
-            
-
-
 
 
         </View>

@@ -1,9 +1,9 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
 
     container: {
-        flex: 1,
+        flex: 1.,
         backgroundColor: '#fff'
     },
 
@@ -18,8 +18,7 @@ export default StyleSheet.create({
         justifyContent: 'flex-start',
         alignItems: 'center',
         backgroundColor: '#0D47A1',
-        elevation: 7,
-
+        elevation: 7
     },
 
     title: {
@@ -82,6 +81,5 @@ export default StyleSheet.create({
         textAlign: "center",
         marginBottom: 15,
         color: '#455A64'
-    },
-
-});
+    }
+})
